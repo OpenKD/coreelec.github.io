@@ -1,0 +1,11 @@
+title: CoreELEC
+description: >-
+  CoreELEC is a 'Just enough OS' Linux distribution for running a Media
+  Entertainment Center on popular hardware. CoreELEC is a fork of
+  LibreELEC project with a stronger focus on community and liberty.
+baseurl: ""
+url: "http://coreelec.org"
+github_username: CoreELEC
+
+markdown: kramdown
+theme: minima
