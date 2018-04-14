@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-We're new here, bare with us whilst we get things setup.
+We're new here, bear with us whilst we get things setup.
 
 In the mean time if you have any issues, file them at CoreELEC's GitHub [issues page][coreelec-gh-issues].
 
