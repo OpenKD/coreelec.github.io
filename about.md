@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-about page...
+CoreELEC is a 'Just enough OS' Linux distribution for running a Media Entertainment Center on popular hardware.
+CoreELEC is a fork of LibreELEC project with a stronger focus on community and liberty.
