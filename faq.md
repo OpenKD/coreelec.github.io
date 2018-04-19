@@ -8,12 +8,16 @@ Answers to some of the most commonly asked questions related to CoreELEC are lis
 ### Installation
 - Which file do I need to use (img.gz/tar)?
   - If you are doing a fresh install then you need the img.gz file or if you are updating then you need the tar file.
+- Where do I find the dtb files?
+  - All dtb files are now included in our images and can be accessed from the device_trees folder on your sdcard or usb drive.
+- I have a WeTek Play 2, which dtb do I use?
+  - gxbb_p200_2G_wetek_play_2.dtb
 
 ### Updating/Upgrading
 - I currently have LibreELEC 8.2 by kszaq installed, can I update to CoreELEC?
   - Absolutely, our releases are fully compatible with upgrading from kszaq's builds
-- How do I update by installation?
-  - There is a few methods you can use to update however the easiest method is to just place the *tar* file inside of the Update folder and then to just reboot.
+- How do I update my installation?
+  - There is a few methods you can use to update however the easiest method is to just place the *tar* file inside of the Update folder and then to just reboot, do not place any other files in the update folder like DTB's.
 - Does CoreELEC auto-update?
   - The functionality is built into all of our images but is not currently active.
 
