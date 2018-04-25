@@ -5,7 +5,7 @@ layout: default
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
 
-  <img src="/CE/assets/home_logo.png" alt="{{ site.title }}" width="300px!important" height="94px!important">
+  <img src="{{prepend: site.baseurl}}/assets/home_logo.png" alt="{{ site.title }}" width="300px!important" height="94px!important">
 
     <header class="site-header">
   {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
