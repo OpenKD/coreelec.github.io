@@ -3,9 +3,10 @@ layout: page
 title: FAQ
 permalink: /faq/
 ---
+
 Answers to some of the most commonly asked questions related to CoreELEC are listed below.
 
-### Installation
+# Installation
 - Which file do I need to use (img.gz/tar)?
   - If you are doing a fresh install then you need the img.gz file or if you are updating then you need the tar file.
 - Where do I find the dtb files?
@@ -41,3 +42,6 @@ Answers to some of the most commonly asked questions related to CoreELEC are lis
   - These addons are dependant on inputstream.adaptive being installed and enabled and also libwidevinecdm.so being installed on your device.
 - Netflix/Amazon plays poorly at 1080p
   - This is because currently there is no H/W based decoding support for these addons so all decoding is done by the CPU which is not powerful enough to decode 1080p.
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+{% include open-embed.html %}

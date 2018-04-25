@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="home">
+<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+
+  <img src="/CE/assets/home_logo.png" alt="{{ site.title }}" width="300px!important" height="94px!important">
+
+    <header class="site-header">
+  {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+</header>
+</div>
+</div>
+
+<div class="wrapper_home">
+<p>
+  We're new here, bear with us whilst we get things setup.
+<br/>
+  In the mean time if you have any issues, file them at CoreELEC's GitHub.
+<br/>
+</p>
+  <a href="https://github.com/CoreELEC/CoreELEC/issues">https://github.com/CoreELEC/CoreELEC/issues</a>
+
+</div>
+</div>

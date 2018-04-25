@@ -1,3 +1,5 @@
-source "https://rubygems.org"
-gem "jekyll", "~> 3.7.3"
-gem "minima", "~> 2.0"
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'jekyll-archives'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
