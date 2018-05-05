@@ -10,6 +10,7 @@ exclude:
 
 # Site settings
 title: CoreELEC
+email: team@coreelec.org
 subtitle: "A lightweight OS for KODI"
 
 description: >
